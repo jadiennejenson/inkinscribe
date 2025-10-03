@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ink Inscribe</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="http://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="max-w-6xl mx-auto">
+    
+    <header class="grid grid-cols-[auto_44px_44px] gap-2 p-2 px-2 border-b" id="header">
+        <img src="images/logo header.jpg" alt="Ink Inscribe Logo" class="w-32 h-auto">
+        <a class="border w-11 h-11 flex justify-around rounded-full hover:bg-slate-200" href="#"><img class="w-6" src="images/heart.svg"></a>
+        <a class="border w-11 h-11 flex justify-around rounded-full hover:bg-slate-200" href="#"><img class="w-6" src="images/bell.svg"></a>
+        <a id="hamburgerBtn"
+              class="border w-11 h-11 flex justify-around rounded-full hover:bg-slate-200"
+              href="#"><img class="w-6" src="images/hamburger-menu.svg"></a>
+    </header>
+    <nav id="primaryNav" class="bg-mygrey-5 hidden sm:px-2 sm:block">
+        <ul class="flex flex-col sm:flex-row p-2 border-b">
+            <li><a class="hover:text-pink-500 font-medium" href="index.html">Home</a></li>
+            <li><a class="hover:text-pink-500 font-medium" href="stories.html">Stories</a></li>
+            <li><a class="hover:text-pink-500 font-medium" href="characters.html">Characters</a></li>
+            <li><a class="hover:text-pink-500 font-medium" href="creators.html">Creators</a></li>
+            <li><a class="hover:text-pink-500 font-medium" href="fontfamily.html">Font Family</a></li>
+    </nav>
+
+    <nav id="primaryNav" class="bg-mygrey-5 hidden sm:px-2 sm:block">
+        <ul class="flex flex-col sm:flex-row">
+            <li class="border-b border-mygrey-30 sm:border-b-0">
+                <a href="#font" class="block py-2 px-3 text-myrustic hover:bg-mygrey-10">Font Family</a></li>
+            <li class="border-b border-mygrey-30 sm:border-b-0">
+                <a href="#break" class="block py-2 px-3 text-myrustic hover:bg-mygrey-10">Breaking Overrides</a></li>
+            <li class="border-b border-mygrey-30 sm:border-b-0">
+                <a href="#color" class="block py-2 px-3 text-myrustic hover:bg-mygrey-10">Color Overrides</a></li>
+        </ul>
+    </nav>
+<main>
+    <h1 class="text-3xl m-2 text-pink-500 font-bold">Font Family</h1>
+    <p>This section covers the font family used throughout the website.</p>
+
+    <section id="font" class="m-4 p-4 border border-mygrey-30 rounded-lg">
+        <h2 class="text-2xl text-mypink font-semibold mb-2">Font Family</h2>
+        <p class="mb-4">This section covers the font family and its usage.</p>
+    </section>
+
+    <section id="break" class="m-4 p-4 border border-mygrey-30 rounded-lg">
+        <h2 class="text-2xl text-mypink font-semibold mb-2">Breaking Overrides</h2>
+        <p class="mb-4">This section covers the breaking overrides applied to the font family.</p>
+    </section>
+
+    <section id="color" class="m-4 p-4 border border-mygrey-30 rounded-lg">
+        <h2 class="text-2xl text-mypink font-semibold mb-2">Color Overrides</h2>
+        <p class="mb-4">This section covers color overrides for text and backgrounds.</p>
+    </section>
+</main>
+
+</div>
+
+<script src="js/script.js" type="module"></script>
+</body>
+</html>
